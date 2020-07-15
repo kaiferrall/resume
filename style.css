@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir", "Arial";
+  box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+  color: inherit;
+}
+* i {
+  vertical-align: middle;
+}
+*.no-margin {
+  margin-bottom: 0 !important;
+}
+
+body {
+  width: 8.5in;
+  height: 11in;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+header {
+  padding: 30px 35px 15px 35px;
+  align-items: center;
+}
+h1 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  width: 72.5%;
+}
+.contacts {
+  width: 27.5%;
+}
+.contacts a {
+  display: block;
+}
+
+main {
+  padding: 0 35px;
+  justify-content: space-between;
+}
+h4 {
+  font-weight: 700;
+  color: #1c38c7;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.col-m {
+  width: 67.5%;
+}
+.col-s {
+  width: 27.5%;
+}
+
+/* side column */
+p {
+  font-size: 12px;
+}
+a {
+  font-size: 12px;
+}
+
+.col-s section {
+  margin-bottom: 30px;
+}
+
+/* main column */
+.item {
+  margin-bottom: 20px;
+}
+
+.item-title {
+  align-items: center;
+}
+
+.item-title p {
+  font-size: 14px;
+}
+
+.item-title p:nth-child(1) {
+  font-weight: 600;
+}
+.item-title p:nth-child(1)::after {
+  content: '\2014';
+  margin: 0 4px;
+}
+
+.item-title p:nth-child(3) {
+  font-weight: 300;
+  font-size: 11px;
+  font-style: italic;
+  margin-left: auto;
+}
+
+.item-info {
+  margin-top: 2px;
+}
+.item-info p::before {
+  content: '\25CB';
+}
