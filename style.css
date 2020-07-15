@@ -27,7 +27,7 @@ body {
 }
 
 header {
-  padding: 30px 35px 15px 35px;
+  padding: 30px 35px 35px 35px;
   align-items: center;
 }
 h1 {
@@ -47,11 +47,16 @@ main {
   padding: 0 35px;
   justify-content: space-between;
 }
+
+.main-sec:nth-last-of-type(even) {
+  margin: 50px 0;
+}
+
 h4 {
   font-weight: 700;
-  color: #1c38c7;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   font-size: 14px;
+  color: #3c4dc7;
 }
 .col-m {
   width: 67.5%;
@@ -93,9 +98,9 @@ a {
   margin: 0 4px;
 }
 
-.item-title p:nth-child(3) {
+.date {
   font-weight: 300;
-  font-size: 11px;
+  font-size: 11px !important;
   font-style: italic;
   margin-left: auto;
 }
@@ -103,6 +108,51 @@ a {
 .item-info {
   margin-top: 2px;
 }
+.item-info p {
+  font-size: 11px;
+}
 .item-info p::before {
   content: '\25CB';
 }
+
+.proj .item-title p:nth-child(2) {
+  font-weight: 300;
+  font-size: 11px;
+  font-style: italic;
+  margin-left: auto;
+}
+
+.proj .item-title p:nth-child(1)::after {
+  content: none;
+}
+
+.tech {
+  margin-top: 4px;
+}
+.tech p:nth-of-type(even) {
+  margin: 0 12px;
+}
+.links {
+  margin-top: 4px;
+}
+.links a:nth-of-type(even) {
+  margin: 0 12px;
+}
+
+.private {
+  color: grey;
+}
+
+.education div:nth-of-type(even) {
+  margin: 8px 0;
+}
+
+.school p:nth-child(1) {
+  font-weight: 600;
+}
+.school p:nth-child(1)::after {
+  content: '\2014';
+  margin: 0 4px;
+}
+
+
