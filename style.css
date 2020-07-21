@@ -39,18 +39,18 @@ p {
 }
 
 section {
-    padding: 0 55px 0 55px;
+    padding: 0 60px 0 60px;
     margin-top: 35px;
 }
 
-main {
-    padding-bottom: 40px;
+.skills {
+    margin-top: 25px;
 }
 
 header {
     align-items: center;
     justify-content: space-between;
-    padding: 40px 55px 0 55px;
+    padding: 40px 60px 0 60px;
 }
 
 header h1 {
@@ -64,8 +64,11 @@ header a {
     font-weight: 100;
 }
 
-header a:nth-of-type(even) {
-    margin: 0 10px;
+.contacts a {
+    font-size: 12px;
+}
+.contacts p {
+    font-size: 11px;
 }
 
 .skills div p:nth-child(2)::before {
